@@ -1,0 +1,250 @@
+#backgroundImage{z-index: 1;
+    background-attachment: fixed;
+
+}
+
+body:before {
+	    background-attachment: fixed;
+
+   content: "";
+   position: absolute;
+   z-index: -1;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   background-image: url(../img/back.jpg);
+    background-repeat: repeat-y;
+   background-size: cover;
+    opacity: 0.4;
+    filter:alpha(opacity=80);
+    height:auto;
+    width:100%;
+    background-repeat: repeat;
+ }
+
+
+
+#head{
+	margin-top: 10%;
+		border-style: groove;
+		border-radius: 10px;
+		width: 42%;
+		min-height: 200px;	
+		padding-top: 40px;
+		font-family: 'Permanent Marker', cursive;
+		font-family: 'Play', sans-serif;
+		padding: 20px;
+		}
+
+#collbtn{
+	float: right;
+	margin-top: 20px;
+}
+
+
+
+#status{
+	 border-color: #c7dbba;
+
+}
+
+
+#status2{
+	 border-color: #c7dbba;
+
+}
+
+
+
+
+#main-heading{
+	text-align: center;
+	padding-top: 20px;
+}
+
+#loginform{
+	padding-top:10%;
+	padding: 10px; 
+
+}
+
+div #loginbox{
+	
+	width: 40%;
+}
+
+.navbar{
+	padding-top: 60px;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+#main-heading2{
+	padding-top: 10px;
+	text-align: center;
+	font-weight: bold;
+	 font-style: italic;
+}
+
+#logo{
+	padding: 10px;
+	width: 200px;
+	height: auto;
+}
+
+#logoutbtn{
+margin:50px 1px 20px 1px;
+}
+
+#helpbtn{
+	margin: 50px 1px 20px 1px; 
+
+}
+
+ #first{
+	padding:50px 10px 10px 180px;
+}
+
+ div #workingbox{
+	padding:50px 10px 10px 20px;
+	margig-top:20px;
+}
+
+#hrt{
+	margin:0px;
+	width: 40%;
+	text-align: center;
+}
+
+#zero{
+	margin:0;
+	padding: 0;
+}
+
+a{
+	text-decoration: none;
+	cursor: pointer;
+}
+a:hover{
+	text-decoration: none;
+	cursor: pointer;
+}
+
+
+  #drpdwn{
+  	margin-left: 20%;
+  }
+
+
+/
+
+@media only screen and (max-width: 600px) {
+  body {
+  
+  }
+
+  #drpdwn{
+  	margin-left: 50%;
+  }
+}
+
+ td, table {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 15px;
+  text-align: left;
+  font-size: 20px;
+}
+
+ul a:hover{
+	background-color: red;
+}
+
+.nav > li > a:focus, 
+.nav > li > a:hover 
+{
+    background-color: pink;
+}
+
+span .glyphicon-bullhorn{
+	width: 60px;
+}
+
+
+#wbox{
+	border-style: groove;
+	 padding: 10px 40px; 
+	 margin-right: 30px;"
+}
+
+#wboxf{
+ font-family: myFirstFont;
+ margin-top:10px;
+}
+
+
+#titleName{
+	width: 200px;
+	  height:28px;
+  margin-right:0; 
+   padding: 4px;
+}
+
+
+
+  input[type=email]{
+  height:28px;
+  margin-right:0; 
+   padding: 4px;
+    }
+
+input[type=number]{
+  height:28px;
+  margin-right:0; 
+   padding: 4px;
+ }
+ input[type=date]{
+  height:28px;
+  margin-right:0; 
+   padding: 4px;
+ }
+
+
+ input[type=text]{
+  height:28px;
+  margin-right:0; 
+   padding: 4px;
+ }
+
+ input[type=password]{
+  height:28px;
+  margin-right:0; 
+ padding: 4px;
+ }
+
+
+#formrow{
+	margin-bottom: 40px;
+}
+
+#rankPicker{
+	height:28px;
+  margin-right:0; 
+ padding: 4px;
+}
+
+#sidebar{
+	border-right-style: ridge;
+}
+
+#Content{
+	border-top-style: ridge;
+}
+
+#pdf{
+	margin-left:50px;
+	margin-top:20px;
+}

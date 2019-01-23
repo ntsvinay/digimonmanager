@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>DiGiMon</title>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+   <script type="text/javascript"
+  src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/js/bootstrap-datepicker.min.js"></script>
+<link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/css/bootstrap-datepicker3.css" />
+ 
+<link rel="stylesheet" type="text/css" href="css/main.css">
+
+
+<style>
+ text-decoration:none;
+</style>
+ 
+
+<script>
+
+</script>
+
+<!-- <script>
+$(document).ready(function(){
+  $("#um").click(function(){
+	  $("#main").load("Header.html");
+    $("#mainbox").load("UserManagement.jsp");
+  });
+});
+</script> -->
+
+<script>
+$(document).ready(function(){
+  $("#working").click(function(){
+	  $("#main").load("Header.html");  
+    $("#mainbox").load("working.html");
+  });
+});
+</script>
+
+<script>
+$(document).ready(function(){
+  $("#ViewSample").click(function(){
+	  $("#main").load("Header.html");
+    $("#mainbox").load("ViewSample.html");
+  });
+});
+</script>
+
+<script>
+$(document).ready(function(){
+  $("#admin").click(function(){
+	  $("#main").load("Header.html");
+    $("#mainbox").load("AdminLogin.html");
+  });
+});
+</script>
+
+
+
+
+
+
+ <script>
+ $(document).ready(function(){
+        var date_input=$('input[id="date"]'); //our date input has the name "date"
+        var container=$('.bootstrap-iso form').length>0 ? $('.bootstrap-iso form').parent() : "body";
+        date_input.datepicker({
+            format:'dd-M-yyyy',
+            container: container,
+            todayHighlight: true,
+            autoclose: true,
+        })
+    })
+</script>
+</head> 
+<body>
+
+ <div class="container-fluid" id="main">
+	<div class="container-fluid-well"> 
+		<div class="col-md-3"><a href="DigiMon.html"><img src="img/logo.png" id="logo"></a>	
+			</div>
+			<div class="col-md-6"><h1 id="main-heading" >DiGi-MON</h1></div>
+        <div class="col-md-3" style="min-width: 200px;">
+        <div class="col-md-8" id="zoro"> 
+         <center><img src="img/ps.PNG" style="height: 75px; width: auto;  border-radius: 50%; margin-top: 10px;"><br>
+ <a class="dropdown-toggle"  data-toggle="dropdown"><h6 style="padding-bottom: 0; margin-bottom: 0px;">MR. PRIYANSHU SURI<span class="caret"></span></h6>
+
+    </a>
+    <ul class="dropdown-menu" id="drpdwn">
+      <li><a href="#">Profile</a></li>
+      <li><a href="#">Log-out</a></li>
+    </ul></center> </div>
+
+    <div class="col-md-4" id="zoro" style="margin-top: 30px;"> 
+    <center>
+<a  id="admin" ><span class="glyphicon glyphicon-user" aria-hidden="true" title="ADMIN LOGIN" ></span>
+</a>
+</center><br>
+<center><a href="checklist_pdffiles/SAF_08_Electrical_Equipment_Permit.pdf" target="_blank" ><span class="glyphicon glyphicon-sunglasses" aria-hidden="true" title="HELP"></span></a></center><br>
+
+</div>
+  </div>
+      
+	</div>
+</div>
+
+<div class="container-fluid-well">
+    <div class="col-md-12">
+      <div class="col-md-2" id="sidebar">
+<nav class="navbar sidebar" role="navigation">
+ 
+      <ul class="nav navbar-nav">
+        <li  class="col-md-12">  <a href="Show_user_detaills"  id="um">USER CONTROL </a></li>
+        <li  class="col-md-12">  <a id="working">WORKING</a></li>
+        <li  class="col-md-12">  <a id="complete">COMPLETED</a></li>
+         <li  class="col-md-12">  <a id="ViewSample">VIEW SAMPLE</a></li>
+         <li  class="col-md-12">  <a href="#">DATA ANALYSIS</a></li>
+        <li  class="col-md-12">  <a href="#">EVENT LOG</a></li>
+        <li  class="col-md-12">  <a href="#">DEVICES</a></li>       
+      </ul>
+   
+</nav>
+
+</div>
+
+  <div class="col-sm-10" id="Content">
+ 
+  	<div class="col-md-12" id="mainbox">
+				   
+      
+    <div class="container" id="status">
+      <h2 id="main-heading2">STATUS</h2>
+  <center><hr width="60%"></center>
+      <section id="first">
+
+              <h1 id="wboxf" ><b id="wbox">10</b>Check list in Working.</h1><br>
+
+
+               <h1 id="wboxf" ><b id="wbox">20</b>Check list Completed.</h1><br>
+
+                <h1 id="wboxf" ><b id="wbox">38</b>Device Online</h1>
+
+
+
+      </section>
+    </div>
+
+
+</div>
+
+
+  
+  
+  </div>
+  </div>
+  
+  </div>
+  </div>
+</body>
+</html>

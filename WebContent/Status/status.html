@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>DiGiMon</title>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+ 
+   <link rel="stylesheet" href="../css/main.css">
+
+ <style type="text/css">
+ 	
+ </style>
+<script>
+  function clean(){
+$(document).ready(function(){
+  $("button").click(function(){
+    $("#status").empty();
+  });
+});}
+</script>
+
+<script>
+$(document).ready(function(){
+  $("#um").click(function(){
+    $("#div1").load("usermanagement.html");
+  });
+});
+</script>
+
+</head>
+
+<body id="backgroundImage" background="img/back.jpg">
+  
+			<div class="col-md-11" id="mainbox">
+				   
+      
+    <div class="container" id="status">
+      <h2 id="main-heading2">STATUS</h2>
+  <center><hr width="60%"></center>
+      <section id="first">
+
+              <h1 id="wboxf" ><b id="wbox">10</b>Check list in Working.</h1><br>
+
+
+               <h1 id="wboxf" ><b id="wbox">20</b>Check list Completed.</h1><br>
+
+                <h1 id="wboxf" ><b id="wbox">38</b>Device Online</h1>
+
+
+
+      </section>
+    </div>
+
+
+
+
+			</div>
+
+
+
+
+</body>
+</html>

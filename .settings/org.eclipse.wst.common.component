@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="DiGiMonManager">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <dependent-module archiveName="bridj-0.6.2.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/bridj-0.6.2/bridj-0.6.2">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="webcam-capture-0.3.10.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/webcam-capture-0.3.10/webcam-capture-0.3.10">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jssc-2.7.0-src.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jssc-2.7.0-src/jssc-2.7.0-src">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jssc.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jssc/jssc">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ojdbc14-10g.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/ojdbc14-10g/ojdbc14-10g">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="slf4j-api-1.7.2.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/slf4j-api-1.7.2/slf4j-api-1.7.2">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jssc-2.7.0-javadoc.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jssc-2.7.0-javadoc/jssc-2.7.0-javadoc">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="DiGiMonManager"/>
+        <property name="java-output-path" value="/DiGiMonManager/build/classes"/>
+    </wb-module>
+</project-modules>
